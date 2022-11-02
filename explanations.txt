@@ -1,0 +1,27 @@
+ Machine learning is an astonishing technology. Machine learning comes with an extensive collection of ML tools, platforms, and software. Moreover, ML technology is evolving continuously. Mastering machine learning tools will let you play with the data, train your models, discover new methods, and create your own algorithms. 
+
+Tools:-
+Python: a popular language with high-quality machine learning and data analysis libraries
+Python, a general-purpose language favored for its readability, good structure, and a relatively mild learning curve continues gaining its popularity
+
+Scikit-Learn is an open-source machine learning package. It is a unified platform as it is used for multiple purposes. It assists in regression, clustering, classification, dimensionality reduction, and preprocessing. Scikit-Learn is built on top of the three main Python libraries viz. NumPy, Matplotlib, and SciPy. Along with this, it will also help you with testing as well as training your models. 
+
+matplotlib: a Python machine learning library for quality visualizations
+matplotlib is a Python 2D plotting library. Plotting is a visualization of machine learning data. matplotlib originates from MATLAB
+
+Python pandas, a free library with the cutest name. Data science devotee Wes McKinney developed this library to make data analysis and modeling convenient in Python. Prior to pandas, this programming language worked well only for data preparation
+
+Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean/average prediction (regression) of the individual trees.Random forests generally outperform decision trees.
+
+Advantages of Random Forest:
+
+Random forest can solve both type of problems that is classification and regression and does a decent estimation at both fronts.
+One of benefits of Random Forest which exists me most is, the power of handle large data sets with higher dimensionality. It can handle thousands of input variables and identity most significant variables so it is considered as one of the dimensionality reduction method. Further, the model outputs importance of variable, which can be a very handy feature.
+It has an effective method for estimating missing data and maintains accuracy when large proportion of the data are missing.
+It has methods for balancing errors in data sets where classes are imbalanced.
+The capability of the above can be extended to unlabeled data, leading to unsupervised clustering,data views and outlier detection.
+Random forest involves sampling of the input data with replacement called as bootstrap sampling. Here one third of data is not used for training and can be used to testing. These are called the OUT OF BAG samples. Error estimated on these out put bag samples is know as out of bag error. Study of error estimates by out of bag, gives avidenc to show that the out of bag estimate is as accurate as using a test set of the same size as the training set. Therefore, using the out of bag error estimate removes the need for a set aside test set.
+Disadvantages of Random Forest:
+
+It surely does a good job at classification but not as for regression problem as it does not gives precise continuous nature prediction. In case of regression, it doesn't predict beyond the range in the training data, and that they may over fit data sets that are particularly noisy.
+Random forest can feel like a black box approach for a statistical modelers we have very little control on what the model does. You can at best try different parameters and random seeds.
